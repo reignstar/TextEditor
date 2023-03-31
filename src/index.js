@@ -15,7 +15,7 @@ import { v4 as uuidv4 } from "uuid";
 
 let doc = Automerge.init();
 
-export default function App() {
+export default function index() {
   const navigate = useNavigate();
 
   const [editorVisible, setEditorVisible] = useState(false);
